@@ -18,7 +18,11 @@
     cursor: none;
   }
 
-  /* Custom cursor */
+    img {
+      object-fit: contain;
+      max-width: 100%;
+      height: auto;
+    }
   #cursor {
     position: fixed;
     width: 8px; height: 8px;
