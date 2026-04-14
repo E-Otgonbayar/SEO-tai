@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://example.com/sitemap.xml
+Sitemap: https://seo-tai-e-otgonbayars-projects.vercel.app/sitemap.xml
