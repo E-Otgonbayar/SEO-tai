@@ -79,6 +79,24 @@
   }
   nav .chapters li:hover, nav .chapters li.active { opacity: 1; color: var(--gold); }
 
+  /* Table of Contents */
+  .toc {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .toc li a {
+    color: var(--cream);
+    text-decoration: none;
+    font-size: 0.9rem;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  .toc li a:hover { opacity: 1; color: var(--gold); }
+
   /* Hero */
   #hero {
     position: relative;
